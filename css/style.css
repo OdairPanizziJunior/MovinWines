@@ -109,3 +109,10 @@ body{
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 990px) {
+    .row .mktplace{
+        margin-bottom: 40px;
+        width: 50%;
+    }
+}
