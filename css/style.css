@@ -1,0 +1,111 @@
+body{
+    font: 20px Arial, sans-serif;
+    
+}
+
+.a-movin{
+    background-color: #4E4199;
+}
+
+.texto-sobre{
+    padding-top: 30px;
+    text-align: left;
+    font-family: 'Calibri';
+    color: aqua;
+
+}
+
+.titulo-sobre{
+    text-align: center;
+    color: aqua;
+}
+
+.missao{
+    background-color: #F3C242;
+}
+
+.titulo-missao{
+    text-align: center;
+    color: #754996;
+}
+
+.texto-missao{
+    padding-top: 30px;
+    text-align: justify;
+    font-family: 'Calibri';
+    color: #754996;
+}
+
+
+.produtos{
+    background-color: aqua;
+}
+
+.titulo-produtos{
+    text-align: center;
+    color: rgb(122, 143, 143);
+}
+
+.texto-produtos{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Calibri';
+    color: rgb(122, 143, 143);
+}
+
+.comprar{
+    background-color: white;
+}
+
+.titulo-comprar{
+    text-align: center;
+    color: #161B22;
+}
+
+.texto-comprar{
+    color: #161B22;
+    padding-bottom: 30px;
+    font-family: 'Calibri';
+}
+
+.devby{
+    background-color: #161B22;
+}
+
+.texto-devby{
+    color: aqua;
+    text-align: right;
+    font-size: small;
+}
+
+.img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.plane{
+    padding-top: 90px;
+}
+
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.zoom:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
