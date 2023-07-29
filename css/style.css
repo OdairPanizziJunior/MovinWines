@@ -1,10 +1,16 @@
+:root{
+    --color1: #FFFFFF;
+    --color2: #161B22;
+    --color3: #4E4199;
+    --color4: #F3C242;
+}
+
 body{
     font: 20px Arial, sans-serif;
-    
 }
 
 .a-movin{
-    background-color: #4E4199;
+    background-color: var(--color3)
 }
 
 .texto-sobre{
@@ -21,7 +27,7 @@ body{
 }
 
 .missao{
-    background-color: #F3C242;
+    background-color: var(--color4);
 }
 
 .titulo-missao{
@@ -59,17 +65,17 @@ body{
 
 .titulo-comprar{
     text-align: center;
-    color: #161B22;
+    color: var(--color2);
 }
 
 .texto-comprar{
-    color: #161B22;
+    color: var(--color2);
     padding-bottom: 30px;
     font-family: 'Calibri';
 }
 
 .devby{
-    background-color: #161B22;
+    background-color: var(--color2);
 }
 
 .texto-devby{
@@ -109,6 +115,36 @@ body{
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+.footer-icons{ /*linha inteira da div*/
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.footer-icons .icons{ /*trabalhando com o plano de fundo*/
+    width: 30px;
+    height: 30px;
+    background-color: var(--color3);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons .icons .fa-brands, .fa-solid {
+    color: var(--color2);
+    font-size: 26px;
+    /* transition: color 0.3s ease; */
+}
+
+.footer-icons .icons .fa-brands:hover {
+   color: var(--color4);
+}
+.footer-icons .icons .fa-solid:hover {
+    color: var(--color4);
+ }
+
 
 @media screen and (max-width: 990px) {
     .row .mktplace{
